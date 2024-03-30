@@ -32,6 +32,9 @@ variable "user" {
 variable "us_east_1_cert_arn" {
   type = string
 }
+variable "ap_northeast_1_cert_arn" {
+  type = string
+}
 variable "domain" {
   type = string
 }
