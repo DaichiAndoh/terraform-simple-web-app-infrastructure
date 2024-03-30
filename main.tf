@@ -29,6 +29,18 @@ variable "project" {
 variable "user" {
   type = string
 }
+variable "db_username" {
+  type = string
+}
+variable "db_password" {
+  type = string
+}
+variable "db_port" {
+  type = number
+}
+variable "db_name" {
+  type = string
+}
 variable "us_east_1_cert_arn" {
   type = string
 }
