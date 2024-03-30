@@ -29,3 +29,9 @@ variable "project" {
 variable "user" {
   type = string
 }
+variable "us_east_1_cert_arn" {
+  type = string
+}
+variable "domain" {
+  type = string
+}
