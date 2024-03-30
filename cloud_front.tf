@@ -1,7 +1,7 @@
 # ==================================
 # cloud front
 # ==================================
-resource "aws_cloudfront_distribution" "cf" {
+resource "aws_cloudfront_distribution" "cf_website_distribution" {
   enabled             = true
   default_root_object = "index.html"
   aliases             = ["${var.domain}"]

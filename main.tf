@@ -41,6 +41,9 @@ variable "db_port" {
 variable "db_name" {
   type = string
 }
+variable "route_53_zone_id" {
+  type = string
+}
 variable "us_east_1_cert_arn" {
   type = string
 }
