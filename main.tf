@@ -50,3 +50,6 @@ variable "ap_northeast_1_cert_arn" {
 variable "domain" {
   type = string
 }
+variable "ecr_image" {
+  type = string
+}
